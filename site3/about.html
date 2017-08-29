@@ -1,0 +1,228 @@
+<!--A Design by W3layouts
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Medicom a Medical Category Flat Bootstarp responsive Website Template | About :: w3layouts</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Medicom Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<script src="js/jquery-1.11.0.min.js"></script>
+
+</head>
+<body>
+<!----start-header---->
+<div class="header" id="home">
+	  <div class="container">
+			<div class="logo">
+				<a href="index.html"><img src="images/logo-3.png" alt=""></a>
+			</div>
+			<div class="menu">			
+			  <div class="top-menu navigation">
+				 <span class="menu"></span> 
+				 <ul class="navig">
+					 <li><a href="index.html">Home</a></li>
+					 <li class="active"><a href="about.html">About</a></li>
+					 <li><a href="blog.html">Blog</a></li>
+					 <li><a href="pages.html">Services</a></li>
+					 <li><a href="gallery.html">Gallery</a></li>
+					 <li><a href="contact.html">Contact</a></li>
+				 </ul>
+			  </div>
+			   <!-- script-for-menu -->
+		 <script>
+				$("span.menu").click(function(){
+					$(" ul.navig").slideToggle("slow" , function(){
+					});
+				});
+		 </script>
+		 <!-- script-for-menu -->
+			  <div class="search">
+					 <form>
+						<input type="text" value="" placeholder="Search...">
+						<input type="submit" value="">
+						</form>
+				</div>
+			</div>
+		  <div class="clearfix"></div>
+	 </div>	
+</div>
+<!----end-header---->
+	<!--about-starts--> 
+	<div class="about">
+		<div class="container">
+			<div class="about-top heading">
+				<h1>About Us</h1>
+				<h4>Cum sociis natoque penatibus et magnis dis parturient montes , nascetur ridiculus mus.</h4>
+				<p class="abt_text">Cum sociis natoque ridiculus etiam et dignissim augue, et sagittis turpis. Vestibulum congue turpis ac tincidunt accumsan. Morbi nunc odio, gravida at, cursus nec, luctus a, lorem. Maecenas tristique orc i ac sem. Duis ultricies pharetra magna. Donec accumsan malesuada orci. </p>
+				<div class="about-bottom">
+					<div class="col-md-4 about-left">
+						<a href="single.html"><img src="images/abt-1.jpg" alt="" /></a>
+						<h5><a href="single.html">What We Do</a></h5>
+						<p>Suspendisse commodo tempor sagittis! In justo est, sollicitudin eu scelerisque pretium, placerat eget elit. Vestibulum congue turpis ac tincidunt accumsan.</p>
+					</div>
+					<div class="col-md-4 about-left">
+						<a href="single.html"><img src="images/abt-2.jpg" alt="" /></a>
+						<h5><a href="single.html">Our Standards</a></h5>
+						<p>Suspendisse commodo tempor sagittis! In justo est, sollicitudin eu scelerisque pretium, placerat eget elit. Vestibulum congue turpis ac tincidunt accumsan.</p>
+					</div>
+					<div class="col-md-4 about-left">
+						<a href="single.html"><img src="images/abt-3.jpg" alt="" /></a>
+						<h5><a href="single.html">Our Capabilities</a></h5>
+						<p>Suspendisse commodo tempor sagittis! In justo est, sollicitudin eu scelerisque pretium, placerat eget elit. Vestibulum congue turpis ac tincidunt accumsan.</p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+			<!--advantages-starts--> 
+	<div class="advantages">		
+			<div class="col-md-6 advantages-left heading">
+				<h3>Our Advantages</h3>
+				<div class="advn-one">
+						<div class="ad-mian">
+							<div class="ad-left">
+								<p>1</p>
+							</div>
+							<div class="ad-right">
+								<h4><a href="single.html">Elacus a porta varius dui</a></h4>
+								<p>In neque arcu, vulputate vitae dignissim id, placerat adipiscing lorem. Nulla consectetur adipiscing metus vel pulvinar. Aenean molestie mauris non diam tincidunt faucibus. </p>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+						<div class="ad-mian">
+							<div class="ad-left">
+								<p>2</p>
+							</div>
+							<div class="ad-right">
+								<h4><a href="single.html">Elacus a porta varius dui</a></h4>
+								<p>In neque arcu, vulputate vitae dignissim id, placerat adipiscing lorem. Nulla consectetur adipiscing metus vel pulvinar. Aenean molestie mauris non diam tincidunt faucibus. </p>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+						<div class="ad-mian">
+							<div class="ad-left">
+								<p>3</p>
+							</div>
+							<div class="ad-right">
+								<h4><a href="single.html">Elacus a porta varius dui</a></h4>
+								<p>In neque arcu, vulputate vitae dignissim id, placerat adipiscing lorem. Nulla consectetur adipiscing metus vel pulvinar. Aenean molestie mauris non diam tincidunt faucibus. </p>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+					</div>
+			</div>
+			<div class="col-md-6 advantages-left heading">
+				<h3>Our Skills</h3>
+				<div class="advn-two">
+							<h4>Erci eu tincidunt lacinia, elit quam ultri ces ipsum, quis ultricies ipsum ante</h4>
+							<p>Donec sagittis interdum tellus sed bibendum. Aen ean fringilla ut lacus eu vehicula. Curabitur non nibh quis nisi vestibulum aliquet non sed dolor. Ut est risus, consectetur sit amet pretium in, cursus in dui. Donec ac rhoncus libero.</p>
+							<ul>
+								<li><a href="#">Praesent vestibulum molestie lacus</a></li>
+								<li><a href="#">Donec sagittis interdum tellus</a></li>
+								<li><a href="#">Nulla consectetur adipiscing</a></li>
+								<li><a href="#">Donec ac rhoncus libero.</a></li>
+								<li><a href="#">Erci eu tincidunt lacinia</a></li>
+							</ul>
+				</div>
+			</div>
+		 <div class="clearfix"></div>
+		 <div class="works">
+			  <h3>Our Team</h3>	  
+			  <div class="grid_4">
+				<div class="text1">
+						   <img src="images/t1.jpg" alt="">
+						   <h4>Phasellus scipitilifen lus.</h4>
+						  <p>Kuspendisse laoreet augue iderti wer  interdum merti oremolo lectusto odio, sedorolu fringilla estero libero. </p>
+					  </div>
+			  </div>
+			  <div class="grid_4">
+				 <div class="text1">
+						   <img src="images/t2.jpg" alt="">
+						   <h4>Phasellus scipitilifen lus.</h4>
+						  <p>Kuspendisse laoreet augue iderti wer  interdum merti oremolo lectusto odio, sedorolu fringilla estero libero. </p>
+					  </div>
+			  </div>
+			  <div class="grid_4 span66">
+				<div class="text1">
+						   <img src="images/t3.jpg" alt="">
+						   <h4>Phasellus scipitilifen lus.</h4>
+						  <p>Kuspendisse laoreet augue iderti wer  interdum merti oremolo lectusto odio, sedorolu fringilla estero libero. </p>
+					  </div>
+			  </div>      
+			  <div class="grid_4 span66">				 
+					  <div class="text1">
+						   <img src="images/t4.jpg" alt="">
+						   <h4>Phasellus scipitilifen lus.</h4>
+						  <p>Kuspendisse laoreet augue iderti wer  interdum merti oremolo lectusto odio, sedorolu fringilla estero libero. </p>
+					  </div>					  
+				 </div>
+		 </div>
+			<div class="clearfix"></div>	 
+</div>
+<!--advantages-end--> 
+		</div>
+	</div>
+	<!----about-end---->	
+<!--footer-->
+<div class="footer">
+	  <div class="footer-grids">
+		  <div class="container">
+			  <div class="col-md-3 footer-grid">
+					<h4>Services</h4>
+					<ul>
+						<li><a href="#">Personal Homecare</a></li>
+						<li><a href="#">Sitter Services</a></li>
+						<li><a href="#">Household Services</a></li>
+						<li><a href="#">Respite Care</a></li>
+						<li><a href="#">Pediatric Care</a></li>
+					</ul>
+			  </div>
+			 <div class="col-md-3 footer-grid">
+					<h4>Information</h4>
+				   <ul>
+						<li><a href="#">Free Delivery</a></li>
+						<li><a href="#">Testimonals</a></li>
+						<li><a href="#">Archives</a></li>
+						<li><a href="#">Our Staff</a></li>
+				  </ul>
+			 </div>
+			 <div class="col-md-3 footer-grid">
+					<h4>More details</h4>
+					<ul>
+						<li><a href="about.html">About us</a></li>
+						<li><a href="contact.html">Privacy Policy</a></li>
+						<li><a href="contact.html">Terms & Condition</a></li>
+						<li><a href="contact.html">Secure payment</a></li>
+						<li><a href="contact.html">Site map</a></li>
+					</ul>
+			 </div>
+			 <div class="col-md-3 footer-grid contact-grid">
+					<h4>Contact us</h4>
+					<ul>
+						<li><span class="c-icon"> </span>Newyork Still Road.</li>
+						<li><span class="c-icon1"> </span><a href="mailto:info@example.com">mail@example.com</a></li>
+						<li><span class="c-icon2"> </span>756 gt globel Place</li>
+					</ul>
+					<ul class="social-icons">
+						<li><a href="#"><span class="facebook"> </span></a></li>
+						<li><a href="#"><span class="twitter"> </span></a></li>
+						<li><a href="#"><span class="thumb"> </span></a></li>
+					</ul>
+			 </div>
+		 </div>
+	 </div>
+</div>
+<div class="copy">
+		 <p>Copyright &copy; 2015 Medicom. All rights reserved | Design by <a href="http://w3layouts.com">W3layouts</a></p>
+ </div>
+ <!--footer--> 
+</body>
+</html>

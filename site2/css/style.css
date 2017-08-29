@@ -1,0 +1,307 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800|Roboto+Slab:100,300,400,700';
+
+
+/*header navibation*/
+header .navbar {
+    padding: 1em 0;
+    transition: all 0.5s ease-out;
+}
+header .navbar-default{
+    background-color: transparent;
+    border: none;
+}
+header .navbar.navbar-default .navbar-nav a{
+    color: white;
+    padding: 15px 8px;
+}
+header .navbar.navbar-default .navbar-nav a:hover{
+ color: #EEc856;
+}
+header .navbar.navbar-default .navbar-nav .active a{
+    font-weight: 700;
+    color: #EEC856;
+    background-color: transparent;
+    border-bottom: 4px solid #EEC856;
+    text-shadow: none;
+}
+
+/*navbar brand*/
+header .navbar-brand{
+    background-image: url(../img/wisdompetlogo.svg);
+    background-repeat: no-repeat;
+    background-position: 15px 0;
+    height: auto;
+}
+header .navbar-brand h1{
+    color: white;
+    margin: 0;
+    font-size: 1.8em;
+    font-weight: 400;
+    padding-left: 3.5em;
+    
+}
+header .navbar-brand .sub-heading{
+    font-family: "Roboto Slab",serif;
+    font-weight: 100;
+    font-size: 0.6em;
+    display: block;
+}
+
+header .navbar-toggle{
+    background-color: #279182;
+
+}
+header .navbar-default .navbar-toggle .icon-bar{
+    background-color: white;
+}
+
+@media only screen and (max-width:768px) {
+header .navbar-collapse{
+    background-color: rgba(0,0,0,0.5);
+}
+}
+
+header .nav.navbar-nav.navbar-right{
+    margin-top: 15px;
+}
+
+ 
+
+body{
+    
+    font-family: "Roboto Slab",serif;
+    font-size: 2em;
+    font-weight: 300;
+    position: relative;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Open Sans",sans-serif;
+    font-weight: 100;
+    margin: 0;
+}
+
+
+.page{
+   padding: 50px 0; 
+}
+.page h2{
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+
+/*page mission*/
+#mission{
+    background-color: #e4d29d;
+    background-image: linear-gradient(to bottom,#eef08a,#819a2d);
+    border-top: 20px solid rgba(238,200,86,0.5);
+}
+
+.services{
+    margin: 20px 0;
+    text-align: center;
+}
+.services img.icon{
+    display: block;
+    width: 80px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+.services h3{
+    margin-bottom: 10px;
+}
+
+@media only screen and (min-width:450px) and (max-width:768px) {
+    .services p{
+        padding: 0 28%;
+    }   
+}
+#staff {
+    background-color: #e4d29d;
+    background-image: linear-gradient(to bottom , #e4d29d,#cdae50);
+}
+.doctor{
+    margin: 10px 0;
+    text-align: center;
+}
+.doctor h3{
+    font-weight: 600;
+    font-size: 1.2em;
+    color: #6f4e36;
+    padding-bottom: 5px;
+    
+}
+.doctor p{
+    font-size: 0.8em;
+}
+.doctor img{
+    width: 100%;
+}
+
+#testimonials {
+    padding: 0;
+}
+
+#testimonials blockquote{
+ 
+    margin: 0;
+    border-left: none;
+    min-height: 500px;
+    position: relative;
+}
+#testimonials blockquote .quote{
+ background-color: rgba(255,255,255,0.6);  
+    position: absolute;
+    padding: 20px 5px;
+    border-radius: 0 50px 0 0 ;
+    bottom: 0;
+    width: 75%;
+    font-weight: 400;
+}
+
+#testimonials blockquote .quote:hover{
+    background-color: rgba(239,240,196,0.9);
+}
+
+
+#testimonials blockquote .quote .more,#testimonials blockquote .quote .customer{
+    display: none;
+    padding-top: 10px;
+}
+
+#testimonials blockquote .quote .intro:after{
+    content: "..."
+}
+
+#testimonials blockquote .quote:hover .intro:after{
+    content: ""
+}
+
+#testimonials blockquote .quote:hover .more{
+    display: block;
+    
+    font-family: "Open Sans";
+    font-weight: 100;
+    line-height: 1.2;
+    font-size: 0.8em;
+}
+
+#testimonials blockquote .quote:hover .customer{
+    display: block;
+    
+    text-align: right;
+    
+}
+
+#testimonials blockquote .quote .customer:before{
+    content: "-"    
+}
+
+#janeh {
+    background: url("../img/testimonial-janeh.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+#mcphersons {
+    background: url("../img/testimonial-mcphersons.jpg") no-repeat center center;
+    background-size: cover;
+
+}
+
+#johnb {
+    background: url("../img/testimonial-johnb.jpg") no-repeat center center;
+    background-size: cover;
+
+}
+
+#lorraines {
+    background: url("../img/testimonial-lorraines.jpg") no-repeat center center;
+    background-size: cover;
+
+}
+
+footer {
+    background-color: #586d74;
+    color: white;
+    font-size: 0.8em;
+    padding: 20px 0 40px 0;
+}
+footer a{
+    color: #ede6ae;
+    
+}
+footer a:hover{
+    color: #eec856 !important;
+}
+footer .phone{
+    font-size: 1.4em;
+    font-weight: 700;
+    color: #ede6ae;
+}
+
+footer .navbar-default{
+    background-color: transparent;
+    border: none;
+    margin-right: 40px;
+}
+footer .navbar-nav > li a{
+    color: #EEC856 !important;
+    text-decoration: underline;
+    padding-bottom: 5px !important;
+    padding-top: 5px !important;
+}
+
+header .inbody{
+    background-color: rgba(104,73,49,0.9);
+    padding-top: 0;
+    padding-bottom: 0;
+}
+header .inbody .navbar-nav{
+    margin-top: 0 !important;
+    padding-top: 0;
+}
+header .inbody .navbar-brand{
+    background-size: 43px;
+    background-position: top left;
+    margin-top: 5px;
+    padding-bottom: 0;
+    margin-left: 10px;
+}
+header .inbody .navbar-brand h1{
+font-size: 1.1em;
+padding-left: 38px;
+}
+header .inbody .navbar-brand h1 .sub-heading{
+    display: none;
+}
+.carousel.myfade{
+    opacity: 1;
+}
+
+.carousel.myfade .item{
+    transition: opacity ease-out 0.7s;
+    position:absolute;
+    display: block;
+    width: 100%;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    
+}
+.carousel.myfade .item:first-child{
+    opacity: 0;
+    top: auto;
+    position: relative;
+}
+
+.carousel.myfade .item.active{
+    opacity: 1;
+}
+
+#carousel .item{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+}
