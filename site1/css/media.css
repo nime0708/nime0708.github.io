@@ -1,0 +1,62 @@
+    @media screen and (min-width:768px) {
+        #navbar.navbar-default {
+            background-color: transparent;
+            border-color: rgba(255, 255, 255, 0.3);
+        }
+        
+        #navbar a.navbar-brand{
+            color: rgba(255, 255, 255, 0.9);
+        }
+        
+        #navbar .navbar-nav a,
+        #navbar .navbar-nav a {
+            color: rgba(255, 255, 255, 0.7);
+        }
+        #navbar .navbar-brand:hover,
+        #navbar .navbar-brand:focus,
+        #navbar .navbar-nav.navbar-right a:hover,
+        #navbar .navbar-nav.navbar-right a:focus {
+            color: white;
+        }
+        #navbar .navbar-nav a {
+            color: rgba(0, 0, 0, 0.5);
+        }
+        /*affix start*/
+        #navbar.navbar-fixed-top.navbar.navbar-default.affix {
+            background-color: white;
+            border-color: rgba(4, 4, 3, 0.2);
+        }
+        #navbar.affix .navbar-brand {
+            color: #A054B7;
+            font-size: 18px;
+        }
+        #navbar.affix .navbar-brand:hover,
+        #navbar.affix .navbar-brand:focus {
+            color: #703C81;
+        }
+        #navbar.affix .nav.navbar-nav a {
+            color: #222;
+        }
+        #navbar.affix .nav.navbar-nav a:hover {
+            color: #703C81;
+        }
+        /*affix end*/
+    }
+    
+    @media (max-width: 767px) {
+        .service-items {
+            margin-top: 30px;
+        }
+    }
+    
+    @media screen and (max-width:767px) {
+        #portfolio .img-responsive {
+            height: 375px;
+        }
+    }
+    
+    @media screen and (min-width:768px) {
+        #portfolio .img-responsive {
+            height: 450px;
+        }
+    }

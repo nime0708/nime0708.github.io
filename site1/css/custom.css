@@ -1,0 +1,270 @@
+/*base color A054B7*/
+
+
+/*dark 703C81*/
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+a {
+    transition: all 0.35s;
+    color: #A054B7;
+}
+
+a:hover,
+a:focus {
+    color: #703C81;
+}
+
+#page {
+    font-family: "Source Sans Pro", "Arial", "sans-serif" !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Open Sans", "Arial", "sans-serif";
+}
+
+p {
+    font-size: 1.4em;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+section {
+    padding: 100px 0;
+}
+
+aside {
+    padding: 50px 0;
+}
+
+hr {
+    border-color: #A054B7;
+    border-width: 3px;
+    max-width: 50px;
+}
+
+hr.inverse {
+    border-color: white;
+}
+
+hr.primary {
+    max-width: 100px;
+    border-width: 6px;
+}
+
+.bg-primary {
+    background-color: #A054B7;
+}
+
+.bg-dark {
+    background-color: rgb(12, 9, 16);
+    background-color: rgba(12, 9, 16, 0.9);
+    color: white;
+}
+
+#navbar.navbar-default {
+    background-color: white;
+    border-color: rgba(34, 34, 34, 0.05);
+    transition: all 0.35s;
+    font-family: "Open Sans", "Arial", "sans-serif";
+}
+
+#navbar .navbar-brand {
+    font-weight: 700;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: #A054B7;
+}
+
+#navbar .navbar-brand:hover,
+#navbar .navbar-brand:focus {
+    color: #703C81;
+}
+
+#navbar .navbar-nav a {
+    font-weight: 700;
+    color: #222;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+#navbar .navbar-nav a:hover {
+    color: #703C81;
+}
+
+#navbar li.active a {
+    color: #A054B7 !important;
+}
+
+#page .btn {
+    border-radius: 500px;
+    font-family: "Open Sans";
+    font-weight: 700;
+    border: none;
+    text-transform: uppercase;
+}
+
+#page .btn-primary {
+    background-color: #A054B7;
+    border-color: #A054B7;
+    color: white;
+    transition: all 0.35s;
+}
+
+#page .btn-primary:hover,
+#page .btn-primary:focus,
+#page .btn-primary:active {
+    background-color: #703C81;
+    border-color: #703C81;
+    color: white;
+}
+
+#page .btn-default {
+    background-color: white;
+    border-color: white;
+    color: #222;
+    transition: all 0.35s;
+}
+
+#page .btn-default:hover,
+#page .btn-default:focus,
+#page .btn-default:active {
+    color: #222222;
+    background-color: #f2f2f2;
+    border-color: #ededed;
+}
+
+#page .text-caption {
+    color: #343434
+}
+
+.no-gutter > [class*="col-"] {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+/*header start*/
+
+#page header {
+    background-image: url(../img/main.jpeg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+#header-container {
+    position: absolute;
+    width: 70%;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#header-container h1 {
+    color: white;
+    font-weight: 700;
+    text-shadow: 0 3px 3px black;
+    text-transform: uppercase;
+}
+
+#header-container p {
+    color: rgba(0, 0, 0, 0.85);
+    text-shadow: 0 1px 1px white;
+    font-size: 1.7em;
+}
+
+#page .section-heading {
+    margin-top: 0;
+}
+
+
+/*header end*/
+
+
+/*service start*/
+
+.service-items {
+    margin-top: 50px;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+
+/*service end*/
+
+
+/*portfolio start*/
+
+#portfolio .img-responsive {
+    width: 100%;
+}
+
+#portfolio .smoke-wrap {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(160, 84, 183, 0.9);
+    opacity: 0;
+    color: white;
+    top: 0;
+    left: 0;
+}
+
+#portfolio .smoke-inner h2 {
+    text-transform: uppercase;
+}
+
+#portfolio .smoke-inner p {
+    font-size: 1.5em;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+#portfolio .smoke-inner {
+    position: absolute;
+    width: 80%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#portfolio .portfolio {
+    position: relative;
+    display: block;
+}
+
+#portfolio .portfolio:hover .smoke-wrap {
+    opacity: 1;
+}
+
+
+/*portfolio end*/
+
+
+/*navbar*/
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+    background-color: transparent;
+}
+
+/*touchup*/
+.find-us h2{
+    margin-bottom: 20px;
+}
+.btn{
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
